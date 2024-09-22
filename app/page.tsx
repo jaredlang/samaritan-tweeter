@@ -30,7 +30,7 @@ export default async function Home() {
     return (
       <div className="w-full max-w-xl mx-auto">
         <div className="flex justify-between px-4 py-6 border border-gray-800 border-t-0">
-          <h1 className="text-xl-font-bold">Home</h1>
+          <h1 className="text-gray-800 text-xl-font-bold">Home</h1>
           <AuthButtonServer />
         </div>
         <NewTweet user={session.user} />
